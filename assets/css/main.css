@@ -114,6 +114,9 @@ a {
   border-bottom: dotted 1px;
   color: #f56a6a;
   text-decoration: none; }
+  .active {
+    color: #f56a6a !important;
+  }
   a:hover {
     border-bottom-color: #f56a6a;
     color: #f56a6a !important; }
@@ -2211,7 +2214,7 @@ button,
     color: inherit;
     cursor: pointer;
     display: block;
-    font-size: 0.9em;
+    font-size: 2em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
       color: #f56a6a; }
@@ -2263,7 +2266,7 @@ button,
     margin: 0.5em 0 1.5em 0;
     padding-left: 1em; }
     #menu > ul > li > ul a, #menu > ul > li > ul span {
-      font-size: 0.8em; }
+      font-size: 2em; }
     #menu > ul > li > ul > li {
       margin: 0.125em 0 0 0;
       padding: 0.125em 0 0 0; }
@@ -2271,3 +2274,29 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+    .ayyappa-img {
+  width: 100%;
+  height: auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
+    }
+.map {
+  font-size: 1.5rem;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 1rem;
+      a {
+        color: #000000;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
